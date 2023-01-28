@@ -123,11 +123,17 @@ main{
     }
     .btn-play {
         width: 5.5rem;
-        padding: 0.5rem 1rem;
+        padding: 5.5rem;
 
     }
     .result {
-        font-size: .8rem;
+        width: 5.5rem;
+        padding: 0.5rem 1rem;
+        
+    }
+
+    .result h5 {
+        font-size: 0.8rem;
     }
     
 }
