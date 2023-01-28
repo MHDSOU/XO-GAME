@@ -100,7 +100,8 @@ main{
 
 .result h5 {
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 400;
+    
 
 }
 
@@ -114,4 +115,19 @@ main{
 
 #third-result {
     background-color: rgb(241, 176, 69);
+}
+/*max: 500*/
+@media screen and (max-width : 500px) {
+    #container {
+        padding: 0 2rem;
+    }
+    .btn-play {
+        width: 5.5rem;
+        padding: 0.5rem 1rem;
+
+    }
+    .result {
+        font-size: 8rem;
+    }
+    
 }
